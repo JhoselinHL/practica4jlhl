@@ -1,0 +1,9 @@
+CREATE DATABASE bd_blog;
+USE bd_blog;
+
+CREATE TABLE posts (
+    id INT(11) AUTO_INCREMENT PRIMARY KEY,
+    fecha DATE,
+    titulo VARCHAR(100),
+    contenido TEXT
+)
